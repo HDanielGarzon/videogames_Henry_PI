@@ -1,0 +1,53 @@
+.container{
+    margin: 2px 500px;
+    display: inline-block;
+  }
+  .paginate {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    align-items: start;
+    /* left: 0%;
+    top: 0%; */
+
+  }
+  
+  .paginate p, .buttonPage, h3 {
+    color: #02b2ff;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 40px;
+      letter-spacing: 4px;
+      background-color: inherit;
+      /* border: none ; */
+      padding: 5px;
+  }
+  
+  .buttonPage:hover {
+    background: #02b2ff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #02b2ff, 0 0 25px #02b2ff, 0 0 50px #02b2ff,
+      0 0 100px #02b2ff;
+      
+    }
+  
+    .paginate h3 {
+      color: #02b2ff;
+      font-size: 35px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 30px;
+      letter-spacing: 4px;
+      background-color: inherit;
+      border: none;
+    }
+    
